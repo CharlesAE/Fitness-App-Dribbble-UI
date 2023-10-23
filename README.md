@@ -42,11 +42,6 @@ This project is a continuation of a series focused on recreating Dribbble app de
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
    
 
-
-
-### Screenshots
-
-![FitnessApp]()|
 ### Screenshots
 Home            |  Analytics |  Profile
 :-------------------------:|:-------------------------:|:-------------------------:
