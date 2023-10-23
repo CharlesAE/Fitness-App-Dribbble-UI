@@ -24,6 +24,9 @@
 		2119DB512AE0521E009A3672 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119DB502AE0521E009A3672 /* SearchCell.swift */; };
 		2119DB532AE0585C009A3672 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119DB522AE0585C009A3672 /* Category.swift */; };
 		2119DB552AE0591E009A3672 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119DB542AE0591E009A3672 /* CategoryCell.swift */; };
+		21938E652AE6A3CA00E8E311 /* Dribbble_UI_Fitness_App_Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 21938E622AE6A3C900E8E311 /* Dribbble_UI_Fitness_App_Home.png */; };
+		21938E662AE6A3CA00E8E311 /* Dribbble_UI_Fitness_App_Profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 21938E632AE6A3CA00E8E311 /* Dribbble_UI_Fitness_App_Profile.png */; };
+		21938E672AE6A3CA00E8E311 /* Dribbble_UI_Fitness_App_Analytics.png in Resources */ = {isa = PBXBuildFile; fileRef = 21938E642AE6A3CA00E8E311 /* Dribbble_UI_Fitness_App_Analytics.png */; };
 		21987A002AE2C74200A4ED8F /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219879FF2AE2C74200A4ED8F /* ProfileController.swift */; };
 		21987A032AE2CC1900A4ED8F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21987A022AE2CC1900A4ED8F /* ProfileView.swift */; };
 		21BABA052AE156E200E8AF98 /* TabButtonStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BABA042AE156E200E8AF98 /* TabButtonStack.swift */; };
@@ -76,6 +79,9 @@
 		2119DB502AE0521E009A3672 /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
 		2119DB522AE0585C009A3672 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		2119DB542AE0591E009A3672 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		21938E622AE6A3C900E8E311 /* Dribbble_UI_Fitness_App_Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dribbble_UI_Fitness_App_Home.png; sourceTree = "<group>"; };
+		21938E632AE6A3CA00E8E311 /* Dribbble_UI_Fitness_App_Profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dribbble_UI_Fitness_App_Profile.png; sourceTree = "<group>"; };
+		21938E642AE6A3CA00E8E311 /* Dribbble_UI_Fitness_App_Analytics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dribbble_UI_Fitness_App_Analytics.png; sourceTree = "<group>"; };
 		219879FF2AE2C74200A4ED8F /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		21987A022AE2CC1900A4ED8F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		21BABA042AE156E200E8AF98 /* TabButtonStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtonStack.swift; sourceTree = "<group>"; };
@@ -137,6 +143,7 @@
 		2119DB0E2ADF4A74009A3672 /* Fitness App Dribbble UI */ = {
 			isa = PBXGroup;
 			children = (
+				21938E612AE6A3B600E8E311 /* screenshots */,
 				21BABA292AE2C44600E8AF98 /* View */,
 				21BABA282AE2C42800E8AF98 /* Util */,
 				21BABA272AE2C3F200E8AF98 /* Model */,
@@ -166,6 +173,16 @@
 				2119DB352ADF4A76009A3672 /* Fitness_App_Dribbble_UIUITestsLaunchTests.swift */,
 			);
 			path = "Fitness App Dribbble UIUITests";
+			sourceTree = "<group>";
+		};
+		21938E612AE6A3B600E8E311 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				21938E642AE6A3CA00E8E311 /* Dribbble_UI_Fitness_App_Analytics.png */,
+				21938E622AE6A3C900E8E311 /* Dribbble_UI_Fitness_App_Home.png */,
+				21938E632AE6A3CA00E8E311 /* Dribbble_UI_Fitness_App_Profile.png */,
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 		21987A012AE2CC0B00A4ED8F /* Profile */ = {
@@ -376,12 +393,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21938E672AE6A3CA00E8E311 /* Dribbble_UI_Fitness_App_Analytics.png in Resources */,
 				21BABA232AE23FBB00E8AF98 /* Montserrat-Regular.ttf in Resources */,
 				21BABA222AE23FBB00E8AF98 /* Montserrat-ExtraBold.ttf in Resources */,
 				2119DB1F2ADF4A75009A3672 /* LaunchScreen.storyboard in Resources */,
 				21BABA202AE23FBB00E8AF98 /* Montserrat-Medium.ttf in Resources */,
+				21938E662AE6A3CA00E8E311 /* Dribbble_UI_Fitness_App_Profile.png in Resources */,
 				21BABA212AE23FBB00E8AF98 /* Montserrat-SemiBold.ttf in Resources */,
 				2119DB1C2ADF4A75009A3672 /* Assets.xcassets in Resources */,
+				21938E652AE6A3CA00E8E311 /* Dribbble_UI_Fitness_App_Home.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
