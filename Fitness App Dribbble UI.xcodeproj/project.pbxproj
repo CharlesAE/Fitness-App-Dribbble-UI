@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2119DB102ADF4A74009A3672 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119DB0F2ADF4A74009A3672 /* AppDelegate.swift */; };
+		2119DB1A2ADF4A74009A3672 /* Fitness_App_Dribbble_UI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2119DB182ADF4A74009A3672 /* Fitness_App_Dribbble_UI.xcdatamodeld */; };
+		2119DB1C2ADF4A75009A3672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2119DB1B2ADF4A75009A3672 /* Assets.xcassets */; };
+		2119DB1F2ADF4A75009A3672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2119DB1D2ADF4A75009A3672 /* LaunchScreen.storyboard */; };
+		2119DB2A2ADF4A76009A3672 /* Fitness_App_Dribbble_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119DB292ADF4A76009A3672 /* Fitness_App_Dribbble_UITests.swift */; };
+		2119DB342ADF4A76009A3672 /* Fitness_App_Dribbble_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119DB332ADF4A76009A3672 /* Fitness_App_Dribbble_UIUITests.swift */; };
+		2119DB362ADF4A76009A3672 /* Fitness_App_Dribbble_UIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119DB352ADF4A76009A3672 /* Fitness_App_Dribbble_UIUITestsLaunchTests.swift */; };
+		2119DB432ADF4B89009A3672 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119DB422ADF4B89009A3672 /* MainTabController.swift */; };
+		2119DB452ADF559B009A3672 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119DB442ADF559B009A3672 /* HomeController.swift */; };
+		2119DB472ADF55BB009A3672 /* AnalyticsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119DB462ADF55BA009A3672 /* AnalyticsController.swift */; };
+		2119DB492AE038D3009A3672 /* Layouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119DB482AE038D3009A3672 /* Layouts.swift */; };
+		2119DB4B2AE03901009A3672 /* CellTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119DB4A2AE03901009A3672 /* CellTitle.swift */; };
+		2119DB4D2AE03B49009A3672 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119DB4C2AE03B49009A3672 /* Workout.swift */; };
+		2119DB4F2AE03D70009A3672 /* WorkoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119DB4E2AE03D70009A3672 /* WorkoutCell.swift */; };
+		2119DB512AE0521E009A3672 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119DB502AE0521E009A3672 /* SearchCell.swift */; };
+		2119DB532AE0585C009A3672 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119DB522AE0585C009A3672 /* Category.swift */; };
+		2119DB552AE0591E009A3672 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119DB542AE0591E009A3672 /* CategoryCell.swift */; };
+		21987A002AE2C74200A4ED8F /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219879FF2AE2C74200A4ED8F /* ProfileController.swift */; };
+		21987A032AE2CC1900A4ED8F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21987A022AE2CC1900A4ED8F /* ProfileView.swift */; };
+		21BABA052AE156E200E8AF98 /* TabButtonStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BABA042AE156E200E8AF98 /* TabButtonStack.swift */; };
+		21BABA092AE1A3CE00E8AF98 /* AnalyticsDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BABA082AE1A3CE00E8AF98 /* AnalyticsDropDown.swift */; };
+		21BABA0D2AE1B9D800E8AF98 /* GradientCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BABA0C2AE1B9D800E8AF98 /* GradientCircle.swift */; };
+		21BABA0F2AE1D8B200E8AF98 /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BABA0E2AE1D8B200E8AF98 /* AnalyticsView.swift */; };
+		21BABA162AE239A900E8AF98 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BABA152AE239A900E8AF98 /* UIFont+Extension.swift */; };
+		21BABA202AE23FBB00E8AF98 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21BABA1C2AE23FBB00E8AF98 /* Montserrat-Medium.ttf */; };
+		21BABA212AE23FBB00E8AF98 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21BABA1D2AE23FBB00E8AF98 /* Montserrat-SemiBold.ttf */; };
+		21BABA222AE23FBB00E8AF98 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21BABA1E2AE23FBB00E8AF98 /* Montserrat-ExtraBold.ttf */; };
+		21BABA232AE23FBB00E8AF98 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21BABA1F2AE23FBB00E8AF98 /* Montserrat-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2119DB262ADF4A76009A3672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2119DB042ADF4A74009A3672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2119DB0B2ADF4A74009A3672;
+			remoteInfo = "Fitness App Dribbble UI";
+		};
+		2119DB302ADF4A76009A3672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2119DB042ADF4A74009A3672 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2119DB0B2ADF4A74009A3672;
+			remoteInfo = "Fitness App Dribbble UI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2119DB0C2ADF4A74009A3672 /* Fitness App Dribbble UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fitness App Dribbble UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2119DB0F2ADF4A74009A3672 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2119DB192ADF4A74009A3672 /* Fitness_App_Dribbble_UI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fitness_App_Dribbble_UI.xcdatamodel; sourceTree = "<group>"; };
+		2119DB1B2ADF4A75009A3672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2119DB1E2ADF4A75009A3672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2119DB202ADF4A75009A3672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2119DB252ADF4A76009A3672 /* Fitness App Dribbble UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fitness App Dribbble UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2119DB292ADF4A76009A3672 /* Fitness_App_Dribbble_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_App_Dribbble_UITests.swift; sourceTree = "<group>"; };
+		2119DB2F2ADF4A76009A3672 /* Fitness App Dribbble UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fitness App Dribbble UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2119DB332ADF4A76009A3672 /* Fitness_App_Dribbble_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_App_Dribbble_UIUITests.swift; sourceTree = "<group>"; };
+		2119DB352ADF4A76009A3672 /* Fitness_App_Dribbble_UIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fitness_App_Dribbble_UIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2119DB422ADF4B89009A3672 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		2119DB442ADF559B009A3672 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		2119DB462ADF55BA009A3672 /* AnalyticsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsController.swift; sourceTree = "<group>"; };
+		2119DB482AE038D3009A3672 /* Layouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layouts.swift; sourceTree = "<group>"; };
+		2119DB4A2AE03901009A3672 /* CellTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTitle.swift; sourceTree = "<group>"; };
+		2119DB4C2AE03B49009A3672 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		2119DB4E2AE03D70009A3672 /* WorkoutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCell.swift; sourceTree = "<group>"; };
+		2119DB502AE0521E009A3672 /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		2119DB522AE0585C009A3672 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		2119DB542AE0591E009A3672 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		219879FF2AE2C74200A4ED8F /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		21987A022AE2CC1900A4ED8F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		21BABA042AE156E200E8AF98 /* TabButtonStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtonStack.swift; sourceTree = "<group>"; };
+		21BABA082AE1A3CE00E8AF98 /* AnalyticsDropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsDropDown.swift; sourceTree = "<group>"; };
+		21BABA0C2AE1B9D800E8AF98 /* GradientCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientCircle.swift; sourceTree = "<group>"; };
+		21BABA0E2AE1D8B200E8AF98 /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		21BABA152AE239A900E8AF98 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		21BABA1C2AE23FBB00E8AF98 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		21BABA1D2AE23FBB00E8AF98 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		21BABA1E2AE23FBB00E8AF98 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		21BABA1F2AE23FBB00E8AF98 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2119DB092ADF4A74009A3672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2119DB222ADF4A76009A3672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2119DB2C2ADF4A76009A3672 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2119DB032ADF4A74009A3672 = {
+			isa = PBXGroup;
+			children = (
+				2119DB0E2ADF4A74009A3672 /* Fitness App Dribbble UI */,
+				2119DB282ADF4A76009A3672 /* Fitness App Dribbble UITests */,
+				2119DB322ADF4A76009A3672 /* Fitness App Dribbble UIUITests */,
+				2119DB0D2ADF4A74009A3672 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2119DB0D2ADF4A74009A3672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2119DB0C2ADF4A74009A3672 /* Fitness App Dribbble UI.app */,
+				2119DB252ADF4A76009A3672 /* Fitness App Dribbble UITests.xctest */,
+				2119DB2F2ADF4A76009A3672 /* Fitness App Dribbble UIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2119DB0E2ADF4A74009A3672 /* Fitness App Dribbble UI */ = {
+			isa = PBXGroup;
+			children = (
+				21BABA292AE2C44600E8AF98 /* View */,
+				21BABA282AE2C42800E8AF98 /* Util */,
+				21BABA272AE2C3F200E8AF98 /* Model */,
+				21BABA242AE2C3AB00E8AF98 /* Controller */,
+				21BABA1B2AE23FBB00E8AF98 /* montserrat */,
+				2119DB0F2ADF4A74009A3672 /* AppDelegate.swift */,
+				2119DB1B2ADF4A75009A3672 /* Assets.xcassets */,
+				2119DB1D2ADF4A75009A3672 /* LaunchScreen.storyboard */,
+				2119DB202ADF4A75009A3672 /* Info.plist */,
+				2119DB182ADF4A74009A3672 /* Fitness_App_Dribbble_UI.xcdatamodeld */,
+			);
+			path = "Fitness App Dribbble UI";
+			sourceTree = "<group>";
+		};
+		2119DB282ADF4A76009A3672 /* Fitness App Dribbble UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2119DB292ADF4A76009A3672 /* Fitness_App_Dribbble_UITests.swift */,
+			);
+			path = "Fitness App Dribbble UITests";
+			sourceTree = "<group>";
+		};
+		2119DB322ADF4A76009A3672 /* Fitness App Dribbble UIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2119DB332ADF4A76009A3672 /* Fitness_App_Dribbble_UIUITests.swift */,
+				2119DB352ADF4A76009A3672 /* Fitness_App_Dribbble_UIUITestsLaunchTests.swift */,
+			);
+			path = "Fitness App Dribbble UIUITests";
+			sourceTree = "<group>";
+		};
+		21987A012AE2CC0B00A4ED8F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				21987A022AE2CC1900A4ED8F /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		21987A042AE2D41800A4ED8F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				219879FF2AE2C74200A4ED8F /* ProfileController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		21BABA1B2AE23FBB00E8AF98 /* montserrat */ = {
+			isa = PBXGroup;
+			children = (
+				21BABA1C2AE23FBB00E8AF98 /* Montserrat-Medium.ttf */,
+				21BABA1D2AE23FBB00E8AF98 /* Montserrat-SemiBold.ttf */,
+				21BABA1E2AE23FBB00E8AF98 /* Montserrat-ExtraBold.ttf */,
+				21BABA1F2AE23FBB00E8AF98 /* Montserrat-Regular.ttf */,
+			);
+			path = montserrat;
+			sourceTree = "<group>";
+		};
+		21BABA242AE2C3AB00E8AF98 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				21987A042AE2D41800A4ED8F /* Profile */,
+				2119DB422ADF4B89009A3672 /* MainTabController.swift */,
+				21BABA262AE2C3B800E8AF98 /* Analytics */,
+				21BABA252AE2C3B300E8AF98 /* Home */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		21BABA252AE2C3B300E8AF98 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2119DB442ADF559B009A3672 /* HomeController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		21BABA262AE2C3B800E8AF98 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				2119DB462ADF55BA009A3672 /* AnalyticsController.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		21BABA272AE2C3F200E8AF98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2119DB522AE0585C009A3672 /* Category.swift */,
+				2119DB4C2AE03B49009A3672 /* Workout.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		21BABA282AE2C42800E8AF98 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				21BABA152AE239A900E8AF98 /* UIFont+Extension.swift */,
+				2119DB482AE038D3009A3672 /* Layouts.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		21BABA292AE2C44600E8AF98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21987A012AE2CC0B00A4ED8F /* Profile */,
+				21BABA2B2AE2C47B00E8AF98 /* Analytics */,
+				21BABA042AE156E200E8AF98 /* TabButtonStack.swift */,
+				21BABA2A2AE2C45600E8AF98 /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		21BABA2A2AE2C45600E8AF98 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2119DB502AE0521E009A3672 /* SearchCell.swift */,
+				2119DB542AE0591E009A3672 /* CategoryCell.swift */,
+				2119DB4E2AE03D70009A3672 /* WorkoutCell.swift */,
+				2119DB4A2AE03901009A3672 /* CellTitle.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		21BABA2B2AE2C47B00E8AF98 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				21BABA0C2AE1B9D800E8AF98 /* GradientCircle.swift */,
+				21BABA0E2AE1D8B200E8AF98 /* AnalyticsView.swift */,
+				21BABA082AE1A3CE00E8AF98 /* AnalyticsDropDown.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2119DB0B2ADF4A74009A3672 /* Fitness App Dribbble UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2119DB392ADF4A76009A3672 /* Build configuration list for PBXNativeTarget "Fitness App Dribbble UI" */;
+			buildPhases = (
+				2119DB082ADF4A74009A3672 /* Sources */,
+				2119DB092ADF4A74009A3672 /* Frameworks */,
+				2119DB0A2ADF4A74009A3672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fitness App Dribbble UI";
+			productName = "Fitness App Dribbble UI";
+			productReference = 2119DB0C2ADF4A74009A3672 /* Fitness App Dribbble UI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2119DB242ADF4A76009A3672 /* Fitness App Dribbble UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2119DB3C2ADF4A76009A3672 /* Build configuration list for PBXNativeTarget "Fitness App Dribbble UITests" */;
+			buildPhases = (
+				2119DB212ADF4A76009A3672 /* Sources */,
+				2119DB222ADF4A76009A3672 /* Frameworks */,
+				2119DB232ADF4A76009A3672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2119DB272ADF4A76009A3672 /* PBXTargetDependency */,
+			);
+			name = "Fitness App Dribbble UITests";
+			productName = "Fitness App Dribbble UITests";
+			productReference = 2119DB252ADF4A76009A3672 /* Fitness App Dribbble UITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2119DB2E2ADF4A76009A3672 /* Fitness App Dribbble UIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2119DB3F2ADF4A76009A3672 /* Build configuration list for PBXNativeTarget "Fitness App Dribbble UIUITests" */;
+			buildPhases = (
+				2119DB2B2ADF4A76009A3672 /* Sources */,
+				2119DB2C2ADF4A76009A3672 /* Frameworks */,
+				2119DB2D2ADF4A76009A3672 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2119DB312ADF4A76009A3672 /* PBXTargetDependency */,
+			);
+			name = "Fitness App Dribbble UIUITests";
+			productName = "Fitness App Dribbble UIUITests";
+			productReference = 2119DB2F2ADF4A76009A3672 /* Fitness App Dribbble UIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2119DB042ADF4A74009A3672 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2119DB0B2ADF4A74009A3672 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					2119DB242ADF4A76009A3672 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2119DB0B2ADF4A74009A3672;
+					};
+					2119DB2E2ADF4A76009A3672 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 2119DB0B2ADF4A74009A3672;
+					};
+				};
+			};
+			buildConfigurationList = 2119DB072ADF4A74009A3672 /* Build configuration list for PBXProject "Fitness App Dribbble UI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2119DB032ADF4A74009A3672;
+			productRefGroup = 2119DB0D2ADF4A74009A3672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2119DB0B2ADF4A74009A3672 /* Fitness App Dribbble UI */,
+				2119DB242ADF4A76009A3672 /* Fitness App Dribbble UITests */,
+				2119DB2E2ADF4A76009A3672 /* Fitness App Dribbble UIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2119DB0A2ADF4A74009A3672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BABA232AE23FBB00E8AF98 /* Montserrat-Regular.ttf in Resources */,
+				21BABA222AE23FBB00E8AF98 /* Montserrat-ExtraBold.ttf in Resources */,
+				2119DB1F2ADF4A75009A3672 /* LaunchScreen.storyboard in Resources */,
+				21BABA202AE23FBB00E8AF98 /* Montserrat-Medium.ttf in Resources */,
+				21BABA212AE23FBB00E8AF98 /* Montserrat-SemiBold.ttf in Resources */,
+				2119DB1C2ADF4A75009A3672 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2119DB232ADF4A76009A3672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2119DB2D2ADF4A76009A3672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2119DB082ADF4A74009A3672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2119DB552AE0591E009A3672 /* CategoryCell.swift in Sources */,
+				2119DB472ADF55BB009A3672 /* AnalyticsController.swift in Sources */,
+				2119DB512AE0521E009A3672 /* SearchCell.swift in Sources */,
+				2119DB4F2AE03D70009A3672 /* WorkoutCell.swift in Sources */,
+				2119DB492AE038D3009A3672 /* Layouts.swift in Sources */,
+				21987A002AE2C74200A4ED8F /* ProfileController.swift in Sources */,
+				2119DB102ADF4A74009A3672 /* AppDelegate.swift in Sources */,
+				21BABA162AE239A900E8AF98 /* UIFont+Extension.swift in Sources */,
+				21BABA092AE1A3CE00E8AF98 /* AnalyticsDropDown.swift in Sources */,
+				2119DB4B2AE03901009A3672 /* CellTitle.swift in Sources */,
+				21BABA0F2AE1D8B200E8AF98 /* AnalyticsView.swift in Sources */,
+				21BABA052AE156E200E8AF98 /* TabButtonStack.swift in Sources */,
+				2119DB4D2AE03B49009A3672 /* Workout.swift in Sources */,
+				2119DB432ADF4B89009A3672 /* MainTabController.swift in Sources */,
+				2119DB1A2ADF4A74009A3672 /* Fitness_App_Dribbble_UI.xcdatamodeld in Sources */,
+				2119DB452ADF559B009A3672 /* HomeController.swift in Sources */,
+				21987A032AE2CC1900A4ED8F /* ProfileView.swift in Sources */,
+				2119DB532AE0585C009A3672 /* Category.swift in Sources */,
+				21BABA0D2AE1B9D800E8AF98 /* GradientCircle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2119DB212ADF4A76009A3672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2119DB2A2ADF4A76009A3672 /* Fitness_App_Dribbble_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2119DB2B2ADF4A76009A3672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2119DB342ADF4A76009A3672 /* Fitness_App_Dribbble_UIUITests.swift in Sources */,
+				2119DB362ADF4A76009A3672 /* Fitness_App_Dribbble_UIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2119DB272ADF4A76009A3672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2119DB0B2ADF4A74009A3672 /* Fitness App Dribbble UI */;
+			targetProxy = 2119DB262ADF4A76009A3672 /* PBXContainerItemProxy */;
+		};
+		2119DB312ADF4A76009A3672 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2119DB0B2ADF4A74009A3672 /* Fitness App Dribbble UI */;
+			targetProxy = 2119DB302ADF4A76009A3672 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2119DB1D2ADF4A75009A3672 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2119DB1E2ADF4A75009A3672 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2119DB372ADF4A76009A3672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2119DB382ADF4A76009A3672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2119DB3A2ADF4A76009A3672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZTX3XXP4XP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fitness App Dribbble UI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CharlesAE.Fitness-App-Dribbble-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2119DB3B2ADF4A76009A3672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZTX3XXP4XP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fitness App Dribbble UI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CharlesAE.Fitness-App-Dribbble-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2119DB3D2ADF4A76009A3672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZTX3XXP4XP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CharlesAE.Fitness-App-Dribbble-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitness App Dribbble UI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fitness App Dribbble UI";
+			};
+			name = Debug;
+		};
+		2119DB3E2ADF4A76009A3672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZTX3XXP4XP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CharlesAE.Fitness-App-Dribbble-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitness App Dribbble UI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fitness App Dribbble UI";
+			};
+			name = Release;
+		};
+		2119DB402ADF4A76009A3672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZTX3XXP4XP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CharlesAE.Fitness-App-Dribbble-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fitness App Dribbble UI";
+			};
+			name = Debug;
+		};
+		2119DB412ADF4A76009A3672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZTX3XXP4XP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CharlesAE.Fitness-App-Dribbble-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fitness App Dribbble UI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2119DB072ADF4A74009A3672 /* Build configuration list for PBXProject "Fitness App Dribbble UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2119DB372ADF4A76009A3672 /* Debug */,
+				2119DB382ADF4A76009A3672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2119DB392ADF4A76009A3672 /* Build configuration list for PBXNativeTarget "Fitness App Dribbble UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2119DB3A2ADF4A76009A3672 /* Debug */,
+				2119DB3B2ADF4A76009A3672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2119DB3C2ADF4A76009A3672 /* Build configuration list for PBXNativeTarget "Fitness App Dribbble UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2119DB3D2ADF4A76009A3672 /* Debug */,
+				2119DB3E2ADF4A76009A3672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2119DB3F2ADF4A76009A3672 /* Build configuration list for PBXNativeTarget "Fitness App Dribbble UIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2119DB402ADF4A76009A3672 /* Debug */,
+				2119DB412ADF4A76009A3672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2119DB182ADF4A74009A3672 /* Fitness_App_Dribbble_UI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2119DB192ADF4A74009A3672 /* Fitness_App_Dribbble_UI.xcdatamodel */,
+			);
+			currentVersion = 2119DB192ADF4A74009A3672 /* Fitness_App_Dribbble_UI.xcdatamodel */;
+			path = Fitness_App_Dribbble_UI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2119DB042ADF4A74009A3672 /* Project object */;
+}
