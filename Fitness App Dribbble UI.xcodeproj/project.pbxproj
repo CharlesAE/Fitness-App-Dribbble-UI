@@ -27,6 +27,7 @@
 		21938E652AE6A3CA00E8E311 /* Dribbble_UI_Fitness_App_Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 21938E622AE6A3C900E8E311 /* Dribbble_UI_Fitness_App_Home.png */; };
 		21938E662AE6A3CA00E8E311 /* Dribbble_UI_Fitness_App_Profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 21938E632AE6A3CA00E8E311 /* Dribbble_UI_Fitness_App_Profile.png */; };
 		21938E672AE6A3CA00E8E311 /* Dribbble_UI_Fitness_App_Analytics.png in Resources */ = {isa = PBXBuildFile; fileRef = 21938E642AE6A3CA00E8E311 /* Dribbble_UI_Fitness_App_Analytics.png */; };
+		21938E692AE6A8C800E8E311 /* Dribbble_UI_Fitness_App.png in Resources */ = {isa = PBXBuildFile; fileRef = 21938E682AE6A8C800E8E311 /* Dribbble_UI_Fitness_App.png */; };
 		21987A002AE2C74200A4ED8F /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219879FF2AE2C74200A4ED8F /* ProfileController.swift */; };
 		21987A032AE2CC1900A4ED8F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21987A022AE2CC1900A4ED8F /* ProfileView.swift */; };
 		21BABA052AE156E200E8AF98 /* TabButtonStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BABA042AE156E200E8AF98 /* TabButtonStack.swift */; };
@@ -82,6 +83,7 @@
 		21938E622AE6A3C900E8E311 /* Dribbble_UI_Fitness_App_Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dribbble_UI_Fitness_App_Home.png; sourceTree = "<group>"; };
 		21938E632AE6A3CA00E8E311 /* Dribbble_UI_Fitness_App_Profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dribbble_UI_Fitness_App_Profile.png; sourceTree = "<group>"; };
 		21938E642AE6A3CA00E8E311 /* Dribbble_UI_Fitness_App_Analytics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dribbble_UI_Fitness_App_Analytics.png; sourceTree = "<group>"; };
+		21938E682AE6A8C800E8E311 /* Dribbble_UI_Fitness_App.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dribbble_UI_Fitness_App.png; sourceTree = "<group>"; };
 		219879FF2AE2C74200A4ED8F /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		21987A022AE2CC1900A4ED8F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		21BABA042AE156E200E8AF98 /* TabButtonStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtonStack.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				21938E642AE6A3CA00E8E311 /* Dribbble_UI_Fitness_App_Analytics.png */,
+				21938E682AE6A8C800E8E311 /* Dribbble_UI_Fitness_App.png */,
 				21938E622AE6A3C900E8E311 /* Dribbble_UI_Fitness_App_Home.png */,
 				21938E632AE6A3CA00E8E311 /* Dribbble_UI_Fitness_App_Profile.png */,
 			);
@@ -395,6 +398,7 @@
 			files = (
 				21938E672AE6A3CA00E8E311 /* Dribbble_UI_Fitness_App_Analytics.png in Resources */,
 				21BABA232AE23FBB00E8AF98 /* Montserrat-Regular.ttf in Resources */,
+				21938E692AE6A8C800E8E311 /* Dribbble_UI_Fitness_App.png in Resources */,
 				21BABA222AE23FBB00E8AF98 /* Montserrat-ExtraBold.ttf in Resources */,
 				2119DB1F2ADF4A75009A3672 /* LaunchScreen.storyboard in Resources */,
 				21BABA202AE23FBB00E8AF98 /* Montserrat-Medium.ttf in Resources */,
