@@ -4,7 +4,7 @@
 [![Swift 5](https://img.shields.io/badge/Swift-5.0-orange.svg)](https://swift.org)
 [![License](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat
             )](http://mit-license.org)
-
+[![LinkedIn][linkedin-shield]][linkedin-url]
 ## About The Project
 
 [![Dribbble - Fitness App][product-screenshot]](https://dribbble.com/shots/16008425-Fitness-App)
@@ -46,7 +46,11 @@ This project is a continuation of a series focused on recreating Dribbble app de
 
 ### Screenshots
 
-![FitnessApp](https://raw.githubusercontent.com/CharlesAE/PleaseAssistMe-Dribbble-UI/main/PAM.gif)|  
+![FitnessApp]()|
+### Screenshots
+Home            |  Analytics |  Profile
+:-------------------------:|:-------------------------:|:-------------------------:
+![Home](https://raw.githubusercontent.com/CharlesAE/Fitness-App-Dribbble-UI/main/Fitness%20App%20Dribbble%20UI/screenshots/Dribbble_UI_Fitness_App_Home.png)  |   ![Analytics](https://raw.githubusercontent.com/CharlesAE/Fitness-App-Dribbble-UI/main/Fitness%20App%20Dribbble%20UI/screenshots/Dribbble_UI_Fitness_App_Analytics.png)  |   ![Profile](https://raw.githubusercontent.com/CharlesAE/Fitness-App-Dribbble-UI/main/Fitness%20App%20Dribbble%20UI/screenshots/Dribbble_UI_Fitness_App_Profile.png)   
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -61,9 +65,9 @@ Website: [https://charlesae.dev](https://charlesae.dev)
   <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://www.linkedin.com/in/charlesae/
 [Swift]: https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white
 [Swift-url]: https://www.swift.org/
 [Xcode]: https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white
 [Xcode-url]: https://developer.apple.com/xcode/
-[product-screenshot]: https://raw.githubusercontent.com/CharlesAE/PleaseAssistMe-Dribbble-UI/main/Dribbble_UI_2.png
+[product-screenshot]: https://raw.githubusercontent.com/CharlesAE/Fitness-App-Dribbble-UI/main/Fitness%20App%20Dribbble%20UI/screenshots/Dribbble_UI_Fitness_App.png
